@@ -1,0 +1,52 @@
+body {
+    background-color: #eeeeee;
+}
+
+#welcome {
+    color: #000000;
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    margin-left: 50%;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    color: rgb(92, 89, 89);
+
+}
+
+.fa-apple {
+    margin-right: 10px;
+  }
+
+i {
+    font-size: 50px;
+    color: rgb(92, 89, 89);
+}
+
+.header:hover, .header:hover .fa-apple {
+    color: white;
+  }
+
+p {
+    color: #000000;
+    font-family: 'Source Sans Pro';
+}
+
+.login-form {
+    position: absolute;
+    font-family: 'Source Sans Pro';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+
+}
+
+.login-form button {
+    font-family: 'Source Sans Pro';
+    font-size: large;
+}
